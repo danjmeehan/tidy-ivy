@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
     </head>
     <body>
-        <div class="bg">
-            <h1>Tidy Ivy</h1>
-        </div>
+
+      <div class="parent-grid">
+        <div class="container-left">
+          <div class="flex-vertical">
+            <h1>Hi, I'm Tidy Ivy.</h1>
+              <h2>I organize clutter,
+              <br>
+                  because getting to <i>tidiness</i> can be tedious.
+              </h2>
+              <img src="assets/tidywithlogo.png" class="img-cartoon">
+            </div>
+          </div>
+                
+          <div class="container-right">
+            <div class="flex-vertical">
+                <form name="contact" method="POST" data-netlify="true">
+                  <h1 class="h1-white">Get A Quote</h1>
+                  <input type="text" name="name" placeholder="Name" />  
+                  <input type="email" name="email" placeholder="Email Address"/>
+                  <textarea name="message" placeholder="Message" rows="4"></textarea>
+                  <button type="submit">Get Quote</button>
+                </form>
+
+                <div class="test-insta">Follow Us</div>
+
+
+            </div>
+
+
+            
+          </div>
+
+      </div>
 
     </body>
 </html>
