@@ -40,10 +40,12 @@ body, html {
 }
 
 h1, h2 {
-  color: #20a7c5;
+  color: #0D547D;
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
 }
 
 .h1-white {
+  text-shadow: none;
   color: #ffffff;
   text-align: center;
 }
@@ -63,6 +65,7 @@ a.instagram-button {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
@@ -70,10 +73,11 @@ a.instagram-button {
   font-size: 20px;
   color: #ffffff;
   background: linear-gradient(#0D547D, #20a7c5);
-  padding: 10px;
+  padding: 10px 20px 10px 10px;
   text-transform: uppercase;
   border: none;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 .img-instagram {
@@ -93,6 +97,11 @@ form {
   background-color: #20a7c5;
   width:70%;
   padding:25px;
+
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+
 }
 
 input {
@@ -117,8 +126,13 @@ button {
   padding: 10px;
   text-transform: uppercase;
   border: none;
+  border-radius: 3px;
 }
 
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 
 .greeting {
   padding: 40px;
