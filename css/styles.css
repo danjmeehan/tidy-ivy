@@ -79,8 +79,9 @@ a.instagram-button {
   text-transform: uppercase;
   border: none;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 20px;
   width:200px;
+  box-shadow: 0 10px 6px -6px #777;
 }
 
 .img-instagram {
@@ -98,12 +99,11 @@ form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #20a7c5;
+  background: linear-gradient(#0D547D, #20a7c5);
   width:70%;
   padding:25px;
-  -webkit-box-shadow: 0 10px 6px -6px #777;
-  -moz-box-shadow: 0 10px 6px -6px #777;
   box-shadow: 0 10px 6px -6px #777;
+  border-radius: 20px;
 }
 
 input {
