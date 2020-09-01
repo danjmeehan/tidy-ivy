@@ -77,8 +77,8 @@ a.instagram-button {
   flex-direction: row;
   align-items: center;
   -webkit-appearance: none;
-  -moz-appearance: button;
-  appearance: button;
+  -moz-appearance: none;
+  appearance: none;
   font-family: 'Cabin';
   font-size: 20px;
   color: #ffffff;
